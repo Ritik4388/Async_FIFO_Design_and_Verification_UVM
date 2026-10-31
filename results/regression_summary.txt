@@ -1,0 +1,36 @@
+sim/logs/fifo_backpressure_test_w10_r10.log:UVM_INFO ../tb/tests/fifo_base_test.sv(51) @ 8425000: uvm_test_top [RESULT] *** TEST PASSED ***
+sim/logs/fifo_backpressure_test_w10_r27.log:UVM_INFO ../tb/tests/fifo_base_test.sv(51) @ 21976000: uvm_test_top [RESULT] *** TEST PASSED ***
+sim/logs/fifo_backpressure_test_w27_r10.log:UVM_INFO ../tb/tests/fifo_base_test.sv(51) @ 21055000: uvm_test_top [RESULT] *** TEST PASSED ***
+sim/logs/fifo_backpressure_test_w7_r50.log:UVM_INFO ../tb/tests/fifo_base_test.sv(51) @ 38575000: uvm_test_top [RESULT] *** TEST PASSED ***
+sim/logs/fifo_full_empty_test_w10_r10.log:UVM_INFO ../tb/tests/fifo_base_test.sv(51) @ 3295000: uvm_test_top [RESULT] *** TEST PASSED ***
+sim/logs/fifo_full_empty_test_w10_r27.log:UVM_INFO ../tb/tests/fifo_base_test.sv(51) @ 6748000: uvm_test_top [RESULT] *** TEST PASSED ***
+sim/logs/fifo_full_empty_test_w27_r10.log:UVM_INFO ../tb/tests/fifo_base_test.sv(51) @ 4915000: uvm_test_top [RESULT] *** TEST PASSED ***
+sim/logs/fifo_full_empty_test_w7_r50.log:UVM_INFO ../tb/tests/fifo_base_test.sv(51) @ 11275000: uvm_test_top [RESULT] *** TEST PASSED ***
+sim/logs/fifo_random_test_w10_r10.log:UVM_INFO ../tb/tests/fifo_base_test.sv(51) @ 8445000: uvm_test_top [RESULT] *** TEST PASSED ***
+sim/logs/fifo_random_test_w10_r27.log:UVM_INFO ../tb/tests/fifo_base_test.sv(51) @ 22246000: uvm_test_top [RESULT] *** TEST PASSED ***
+sim/logs/fifo_random_test_w27_r10.log:UVM_INFO ../tb/tests/fifo_base_test.sv(51) @ 20975000: uvm_test_top [RESULT] *** TEST PASSED ***
+sim/logs/fifo_random_test_w7_r50.log:UVM_INFO ../tb/tests/fifo_base_test.sv(51) @ 41375000: uvm_test_top [RESULT] *** TEST PASSED ***
+sim/logs/fifo_backpressure_test_w10_r10.log:UVM_INFO ../tb/env/fifo_coverage.sv(52) @ 8425000: uvm_test_top.env.cov [COV] write cov=75.0%  read cov=100.0%
+sim/logs/fifo_backpressure_test_w10_r10.log:UVM_INFO ../tb/env/fifo_scoreboard.sv(92) @ 8425000: uvm_test_top.env.sb [SB] writes=300 reads=300 matches=300 errors=0 occupancy_cov=80.0%
+sim/logs/fifo_backpressure_test_w10_r27.log:UVM_INFO ../tb/env/fifo_coverage.sv(52) @ 21976000: uvm_test_top.env.cov [COV] write cov=100.0%  read cov=100.0%
+sim/logs/fifo_backpressure_test_w10_r27.log:UVM_INFO ../tb/env/fifo_scoreboard.sv(92) @ 21976000: uvm_test_top.env.sb [SB] writes=300 reads=300 matches=300 errors=0 occupancy_cov=100.0%
+sim/logs/fifo_backpressure_test_w27_r10.log:UVM_INFO ../tb/env/fifo_coverage.sv(52) @ 21055000: uvm_test_top.env.cov [COV] write cov=75.0%  read cov=100.0%
+sim/logs/fifo_backpressure_test_w27_r10.log:UVM_INFO ../tb/env/fifo_scoreboard.sv(92) @ 21055000: uvm_test_top.env.sb [SB] writes=300 reads=300 matches=300 errors=0 occupancy_cov=40.0%
+sim/logs/fifo_backpressure_test_w7_r50.log:UVM_INFO ../tb/env/fifo_coverage.sv(52) @ 38575000: uvm_test_top.env.cov [COV] write cov=100.0%  read cov=100.0%
+sim/logs/fifo_backpressure_test_w7_r50.log:UVM_INFO ../tb/env/fifo_scoreboard.sv(92) @ 38575000: uvm_test_top.env.sb [SB] writes=300 reads=300 matches=300 errors=0 occupancy_cov=100.0%
+sim/logs/fifo_full_empty_test_w10_r10.log:UVM_INFO ../tb/env/fifo_coverage.sv(52) @ 3295000: uvm_test_top.env.cov [COV] write cov=100.0%  read cov=100.0%
+sim/logs/fifo_full_empty_test_w10_r10.log:UVM_INFO ../tb/env/fifo_scoreboard.sv(92) @ 3295000: uvm_test_top.env.sb [SB] writes=64 reads=64 matches=64 errors=0 occupancy_cov=100.0%
+sim/logs/fifo_full_empty_test_w10_r27.log:UVM_INFO ../tb/env/fifo_coverage.sv(52) @ 6748000: uvm_test_top.env.cov [COV] write cov=83.3%  read cov=100.0%
+sim/logs/fifo_full_empty_test_w10_r27.log:UVM_INFO ../tb/env/fifo_scoreboard.sv(92) @ 6748000: uvm_test_top.env.sb [SB] writes=64 reads=64 matches=64 errors=0 occupancy_cov=100.0%
+sim/logs/fifo_full_empty_test_w27_r10.log:UVM_INFO ../tb/env/fifo_coverage.sv(52) @ 4915000: uvm_test_top.env.cov [COV] write cov=100.0%  read cov=100.0%
+sim/logs/fifo_full_empty_test_w27_r10.log:UVM_INFO ../tb/env/fifo_scoreboard.sv(92) @ 4915000: uvm_test_top.env.sb [SB] writes=64 reads=64 matches=64 errors=0 occupancy_cov=100.0%
+sim/logs/fifo_full_empty_test_w7_r50.log:UVM_INFO ../tb/env/fifo_coverage.sv(52) @ 11275000: uvm_test_top.env.cov [COV] write cov=100.0%  read cov=100.0%
+sim/logs/fifo_full_empty_test_w7_r50.log:UVM_INFO ../tb/env/fifo_scoreboard.sv(92) @ 11275000: uvm_test_top.env.sb [SB] writes=64 reads=64 matches=64 errors=0 occupancy_cov=100.0%
+sim/logs/fifo_random_test_w10_r10.log:UVM_INFO ../tb/env/fifo_coverage.sv(52) @ 8445000: uvm_test_top.env.cov [COV] write cov=100.0%  read cov=100.0%
+sim/logs/fifo_random_test_w10_r10.log:UVM_INFO ../tb/env/fifo_scoreboard.sv(92) @ 8445000: uvm_test_top.env.sb [SB] writes=299 reads=299 matches=299 errors=0 occupancy_cov=80.0%
+sim/logs/fifo_random_test_w10_r27.log:UVM_INFO ../tb/env/fifo_coverage.sv(52) @ 22246000: uvm_test_top.env.cov [COV] write cov=100.0%  read cov=100.0%
+sim/logs/fifo_random_test_w10_r27.log:UVM_INFO ../tb/env/fifo_scoreboard.sv(92) @ 22246000: uvm_test_top.env.sb [SB] writes=122 reads=122 matches=122 errors=0 occupancy_cov=100.0%
+sim/logs/fifo_random_test_w27_r10.log:UVM_INFO ../tb/env/fifo_coverage.sv(52) @ 20975000: uvm_test_top.env.cov [COV] write cov=100.0%  read cov=100.0%
+sim/logs/fifo_random_test_w27_r10.log:UVM_INFO ../tb/env/fifo_scoreboard.sv(92) @ 20975000: uvm_test_top.env.sb [SB] writes=124 reads=124 matches=124 errors=0 occupancy_cov=100.0%
+sim/logs/fifo_random_test_w7_r50.log:UVM_INFO ../tb/env/fifo_coverage.sv(52) @ 41375000: uvm_test_top.env.cov [COV] write cov=100.0%  read cov=100.0%
+sim/logs/fifo_random_test_w7_r50.log:UVM_INFO ../tb/env/fifo_scoreboard.sv(92) @ 41375000: uvm_test_top.env.sb [SB] writes=52 reads=52 matches=52 errors=0 occupancy_cov=100.0%

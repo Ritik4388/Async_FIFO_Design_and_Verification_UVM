@@ -1,0 +1,58 @@
+IMC(64): 24.09-s001: (c) Copyright 1995-2024 Cadence Design Systems Inc - Simulator version: 24.09-s001 - Coverage engine version: 24.09-s001
+Starting batch mode
+Total conflicts during target model creation: 0
+Total items not merged                      : 0
+Total runs not considered during target model creation: 0
+Total runs not merged                                 : 0
+name                                     Overall Average      Overall Covered      Code Average         Code Covered         Fsm Average          Fsm Covered          Functional Average   Functional Covered   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+async_fifo                               99.10%               97.67% (84/86)       99.10%               97.67% (84/86)       n/a                  n/a                  n/a                  n/a                  
+|--u_sync_r2w                            97.06%               95.00% (19/20)       97.06%               95.00% (19/20)       n/a                  n/a                  n/a                  n/a                  
+|--u_sync_w2r                            97.06%               95.00% (19/20)       97.06%               95.00% (19/20)       n/a                  n/a                  n/a                  n/a                  
+|--u_sva                                 94.44%               92.31% (24/26)       88.89%               88.89% (16/18)       n/a                  n/a                  100.00%              100.00% (8/8)        
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+<> User: root
+
+Host: vlsi.iiita.ac.in
+
+Report date: Sat 31 Oct 2026 13:35:45 IST
+
+Report options: -detail -metrics covergroup -all
+
+Coverage database path: /root/svp/new_b/async_fifo_uvm/sim/cov_work/scope/all_runs
+
+Coverage model files: /root/svp/new_b/async_fifo_uvm/sim/cov_work/scope/all_runs/icc_470265f2_2f4d0f2d.ucm
+
+Coverage data files: /root/svp/new_b/async_fifo_uvm/sim/cov_work/scope/all_runs/icc_470265f2_2f4d0f2d.ucd
+
+CCF files:  None
+
+
+Coverage database date: Sat 31 Oct 2026 13:34:23 IST
+
+*** There were no refinement files applied ***
+
+ <>
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+Coverage Table Legend
+---------------------
+  EXCL       excluded using refinement rule
+  P-EXCL     excluded from parent
+  U-EXCL     excluded and unreachable by IEV
+  T-EXCL     excluded from type
+  S-EXCL     smart excluded using refinement rule
+  EXCL(S)    smart indirect excluded
+  EMPTY      all children are excluded
+  CONST      marked constant during simulation
+  IGN        marked ignored during simulation
+  UNG        marked ungradeable during simulation
+  DES        marked deselected during simulation
+  UNR        marked unreachable by IEV
+  UNG-Expr   expression marked ungradeable during simulation
+  UNG-Toggle toggle marked ungradeable during simulation
+
+
+Covered+Uncovered+Excluded+UNR CoverGroup Detail Report, Instance Based
+=======================================================================
+

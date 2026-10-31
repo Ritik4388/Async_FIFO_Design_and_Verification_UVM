@@ -1,0 +1,18 @@
+# Xcelium / IMC / SimVision outputs
+sim/xcelium.d/
+sim/xrun.*
+sim/waves.shm/
+sim/cov_work/
+sim/logs/
+sim/.simvision/
+sim/*.log
+sim/*.history
+sim/*.key
+sim/cov_report.txt
+sim/uncov_report.txt
+sim/uncov.tcl
+INCA_libs/
+
+# backups
+*.bak
+*~
