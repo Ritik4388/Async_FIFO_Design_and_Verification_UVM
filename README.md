@@ -92,6 +92,11 @@ See [Known limitations](#known-limitations).
 
 Raw reports are in [`results/`](results/).
 
+<img width="900" alt="IMC merged coverage" src="results/imc_coverage.png" />
+
+*Merged coverage from all 12 runs in Cadence IMC. Read the **Instances → async_fifo** row (146/152): every
+assertion passed and every cover property was hit, and all 6 missed items are reset 1→0 toggles. The top
+"Verification Metrics" row adds Types and Instances together, so it counts the same code twice.*
 ## Bugs found during verification
 
 All three were in the testbench, and each was found from regression results, not by reading code.
